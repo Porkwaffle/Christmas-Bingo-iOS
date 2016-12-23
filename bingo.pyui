@@ -1,0 +1,163 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {301, 299}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{-6, 0}, {307, 299}}",
+        "class" : "View",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WH",
+          "border_width" : 2,
+          "frame" : "{{101, 100}, {100, 100}}",
+          "class" : "View",
+          "background_color" : "RGBA(0.622642,0.000000,0.000000,1.000000)",
+          "uuid" : "E81F3B45-496C-4351-BAD9-3BCAA2B591DA",
+          "corner_radius" : 0,
+          "border_color" : "RGBA(0.082353,0.843137,0.337255,1.000000)",
+          "name" : "Background"
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{159, 243}, {79, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "2041D2F4-0325-4F65-851A-EE4632983780",
+          "font_size" : 15,
+          "corner_radius" : 0,
+          "background_color" : "RGBA(0.082353,0.843137,0.337255,1.000000)",
+          "frame" : "{{107, 123}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 1,
+          "border_color" : "RGBA(1.000000,0.000000,0.000000,1.000000)",
+          "title" : "Bingo!",
+          "action" : "show_bingo_menu",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "button2",
+          "flex" : "LT"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{57, 243}, {80, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "EAFB548D-C4F9-4AD0-8002-229AC21D36D2",
+          "font_size" : 15,
+          "corner_radius" : 0,
+          "background_color" : "RGBA(0.084670,0.846698,0.338679,1.000000)",
+          "frame" : "{{107, 123}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 1,
+          "border_color" : "RGBA(1.000000,0.000000,0.000000,1.000000)",
+          "title" : "Draw",
+          "action" : "draw_button",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "button1",
+          "flex" : "LT"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 6}, {289, 39}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WHB",
+          "font_size" : 50,
+          "font_name" : "PartyLetPlain",
+          "frame" : "{{72, 123}, {150, 32}}",
+          "uuid" : "55E1026E-CED4-4611-9E58-A3E6C39B7F27",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Christmas Bingo",
+          "background_color" : "RGBA(0.619608,0.000000,0.000000,1.000000)",
+          "name" : "titleLabel",
+          "text_color" : "RGBA(0.082353,0.843137,0.337255,1.000000)"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{50, 35}, {200, 200}}",
+        "class" : "TextView",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "F648B162-4F82-4897-8B5D-99A37504AF46",
+          "flex" : "WHT",
+          "corner_radius" : 0,
+          "background_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "frame" : "{{51, 50}, {200, 200}}",
+          "border_color" : "RGBA(0.082353,0.843137,0.337255,1.000000)",
+          "editable" : true,
+          "border_width" : 1,
+          "custom_attributes" : "",
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "text_color" : "RGBA(1.000000,1.000000,0.950000,1.000000)",
+          "font_name" : "<System-Bold>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "textview",
+          "font_size" : 25
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{258, 45}, {37, 200}}",
+        "class" : "ImageView",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "94074A0A-1AA5-441D-B490-7F1DFCB10017",
+          "frame" : "{{101, 100}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "imageview2",
+          "flex" : "HLTB"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{5, 45}, {37, 200}}",
+        "class" : "ImageView",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "8FCC1169-5E39-4BD7-AFBF-5641BB0FA4F3",
+          "frame" : "{{101, 100}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "imageview1",
+          "flex" : "HRTB"
+        }
+      }
+    ],
+    "attributes" : {
+      "flex" : "",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "custom_class" : "",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "Bingo"
+    }
+  }
+]
